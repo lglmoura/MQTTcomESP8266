@@ -1,7 +1,13 @@
 #include "config.h"
+#include "wifi_init.h"
 
 void setup() {
-  // put your setup code here, to run once:
+  Serial.begin(115200);
+  delay(10);
+  if (conectaWiFi()){
+    
+     
+  }
 
 }
 
